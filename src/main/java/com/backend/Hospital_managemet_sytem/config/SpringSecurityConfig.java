@@ -38,13 +38,23 @@ public class SpringSecurityConfig {
 
         http.csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests((authorize) -> {
+                    authorize.requestMatchers("/v3/api-docs/**",
+                            "/configuration/ui",
+                            "/swagger-resources/**",
+                            "/api-docs/**",
+                            "/swagger.json/**",
+                            "/configuration/security",
+                            "/swagger-ui.html",
+                            "/webjars/**",
+                            "/swagger-ui/**",
+                            "/api/auth/**").permitAll();
 //                    authorize.requestMatchers(HttpMethod.POST, "/api/**").hasRole("ADMIN");
 //                    authorize.requestMatchers(HttpMethod.PUT, "/api/**").hasRole("ADMIN");
 //                    authorize.requestMatchers(HttpMethod.DELETE, "/api/**").hasRole("ADMIN");
 //                    authorize.requestMatchers(HttpMethod.GET, "/api/**").hasAnyRole("ADMIN", "USER");
 //                    authorize.requestMatchers(HttpMethod.PATCH, "/api/**").hasAnyRole("ADMIN", "USER");
 //                    authorize.requestMatchers(HttpMethod.GET, "/api/**").permitAll();
-                    authorize.requestMatchers("/api/auth/**").permitAll();
+
                     authorize.requestMatchers(HttpMethod.OPTIONS, "/**").permitAll();
                     authorize.anyRequest().authenticated();
                 }).httpBasic(Customizer.withDefaults());

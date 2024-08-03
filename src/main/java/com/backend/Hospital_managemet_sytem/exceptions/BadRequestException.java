@@ -1,4 +1,4 @@
-package com.backend.Hospital_managemet_sytem.security.exceptions;
+package com.backend.Hospital_managemet_sytem.exceptions;
 
 public class BadRequestException extends RuntimeException{
 

@@ -14,7 +14,7 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class User {
+public class User  {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -31,6 +31,8 @@ public class User {
 
     private String address;
 
+    @NotBlank(message = "Email is required")
+    @Column(unique = true)
     private String email;
 
     @NotBlank(message = "Password is required")

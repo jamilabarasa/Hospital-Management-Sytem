@@ -1,6 +1,6 @@
 package com.backend.Hospital_managemet_sytem.service.impl;
 
-import com.backend.Hospital_managemet_sytem.security.exceptions.ResourceNotFoundException;
+import com.backend.Hospital_managemet_sytem.exceptions.ResourceNotFoundException;
 import com.backend.Hospital_managemet_sytem.model.Appointment;
 import com.backend.Hospital_managemet_sytem.repository.AppointmentRepository;
 import com.backend.Hospital_managemet_sytem.service.AppointmentService;

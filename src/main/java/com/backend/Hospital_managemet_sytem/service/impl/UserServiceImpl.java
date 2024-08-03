@@ -1,17 +1,12 @@
 package com.backend.Hospital_managemet_sytem.service.impl;
 
-import com.backend.Hospital_managemet_sytem.security.jwt.JwtTokenProvider;
-import com.backend.Hospital_managemet_sytem.dto.LoginDto;
-import com.backend.Hospital_managemet_sytem.security.exceptions.ResourceNotFoundException;
+import com.backend.Hospital_managemet_sytem.exceptions.ResourceNotFoundException;
 import com.backend.Hospital_managemet_sytem.model.User;
 import com.backend.Hospital_managemet_sytem.model.enumerations.UserRole;
 import com.backend.Hospital_managemet_sytem.repository.UserRepository;
 import com.backend.Hospital_managemet_sytem.service.UserService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -22,14 +17,20 @@ public class UserServiceImpl implements UserService {
 
     private UserRepository userRepository;
 
+    private PasswordEncoder passwordEncoder;
 
-    public UserServiceImpl(UserRepository userRepository) {
+
+    public UserServiceImpl(UserRepository userRepository, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
+        this.passwordEncoder = passwordEncoder;
     }
 
     @Override
     public User createUser(User user) {
         log.debug("About to save user {}",user);
+        // Encoding password
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
+
         return userRepository.save(user);
     }
 
