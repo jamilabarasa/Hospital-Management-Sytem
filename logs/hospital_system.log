@@ -1369,3 +1369,112 @@ com.backend.Hospital_managemet_sytem.controller.PatientController#createPatient(
 2024-08-03T13:41:13.301+03:00  INFO 12373 --- [Hospital_managemet_sytem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-08-03T13:41:13.313+03:00  INFO 12373 --- [Hospital_managemet_sytem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-08-03T13:41:13.332+03:00  INFO 12373 --- [Hospital_managemet_sytem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T13:41:43.665+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] c.b.H.HospitalManagemetSytemApplication  : Starting HospitalManagemetSytemApplication using Java 17.0.12 with PID 14129 (/home/jamila/Documents/academy/Hospital_managemet_sytem/target/classes started by jamila in /home/jamila/Documents/academy/Hospital_managemet_sytem)
+2024-08-03T13:41:43.677+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] c.b.H.HospitalManagemetSytemApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T13:41:43.822+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-03T13:41:43.823+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-03T13:41:45.997+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T13:41:46.228+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210 ms. Found 7 JPA repository interfaces.
+2024-08-03T13:41:47.563+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-08-03T13:41:47.596+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T13:41:47.598+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T13:41:47.727+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T13:41:47.728+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3903 ms
+2024-08-03T13:41:48.121+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T13:41:48.235+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T13:41:48.318+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T13:41:49.018+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T13:41:49.088+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T13:41:49.929+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b7ce8ab
+2024-08-03T13:41:49.937+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T13:41:53.515+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T13:41:53.637+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T13:41:54.997+03:00  WARN 14129 --- [Hospital_managemet_sytem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T13:41:57.150+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-03T13:41:57.248+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path '/'
+2024-08-03T13:41:57.296+03:00  INFO 14129 --- [Hospital_managemet_sytem] [restartedMain] c.b.H.HospitalManagemetSytemApplication  : Started HospitalManagemetSytemApplication in 15.071 seconds (process running for 16.538)
+2024-08-03T13:42:55.462+03:00  INFO 14129 --- [Hospital_managemet_sytem] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T13:42:55.463+03:00  INFO 14129 --- [Hospital_managemet_sytem] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T13:42:55.469+03:00  INFO 14129 --- [Hospital_managemet_sytem] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-08-03T13:42:57.733+03:00  INFO 14129 --- [Hospital_managemet_sytem] [http-nio-9091-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1372 ms
+2024-08-03T14:37:11.777+03:00  INFO 14129 --- [Hospital_managemet_sytem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T14:37:11.787+03:00  INFO 14129 --- [Hospital_managemet_sytem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T14:37:11.804+03:00  INFO 14129 --- [Hospital_managemet_sytem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T14:37:46.692+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] H.HospitalManagemetSytemApplicationTests : Starting HospitalManagemetSytemApplicationTests using Java 17.0.12 with PID 17016 (started by jamila in /home/jamila/Documents/academy/Hospital_managemet_sytem)
+2024-08-03T14:37:46.701+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] H.HospitalManagemetSytemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T14:37:50.303+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T14:37:50.663+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 325 ms. Found 7 JPA repository interfaces.
+2024-08-03T14:37:53.724+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T14:37:53.932+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T14:37:54.059+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T14:37:55.219+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T14:37:55.311+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T14:37:56.339+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e090aaa
+2024-08-03T14:37:56.346+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T14:38:00.076+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T14:38:00.232+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T14:38:03.014+03:00  WARN 17016 --- [Hospital_managemet_sytem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T14:38:07.313+03:00  WARN 17016 --- [Hospital_managemet_sytem] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7554c9d4-3e35-4f6b-a91e-3e859987f129
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-08-03T14:38:07.380+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T14:38:08.124+03:00  INFO 17016 --- [Hospital_managemet_sytem] [main] H.HospitalManagemetSytemApplicationTests : Started HospitalManagemetSytemApplicationTests in 22.718 seconds (process running for 27.071)
+2024-08-03T14:38:09.645+03:00  INFO 17016 --- [Hospital_managemet_sytem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T14:38:09.654+03:00  INFO 17016 --- [Hospital_managemet_sytem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T14:38:09.685+03:00  INFO 17016 --- [Hospital_managemet_sytem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T14:46:35.916+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] H.HospitalManagemetSytemApplicationTests : Starting HospitalManagemetSytemApplicationTests using Java 17.0.12 with PID 18353 (started by jamila in /home/jamila/Documents/academy/Hospital_managemet_sytem)
+2024-08-03T14:46:35.936+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] H.HospitalManagemetSytemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T14:46:38.339+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T14:46:38.606+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 241 ms. Found 7 JPA repository interfaces.
+2024-08-03T14:46:40.104+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T14:46:40.253+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T14:46:40.347+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T14:46:41.402+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T14:46:41.551+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T14:46:43.025+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@566f4659
+2024-08-03T14:46:43.036+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T14:46:47.865+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T14:46:48.055+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T14:46:50.366+03:00  WARN 18353 --- [Hospital_managemet_sytem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T14:46:54.616+03:00  WARN 18353 --- [Hospital_managemet_sytem] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b1fd6118-1dde-4918-b2f5-0a9e0873ad0d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-08-03T14:46:54.677+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-08-03T14:46:55.543+03:00  INFO 18353 --- [Hospital_managemet_sytem] [main] H.HospitalManagemetSytemApplicationTests : Started HospitalManagemetSytemApplicationTests in 20.804 seconds (process running for 25.19)
+2024-08-03T14:46:57.289+03:00  INFO 18353 --- [Hospital_managemet_sytem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T14:46:57.305+03:00  INFO 18353 --- [Hospital_managemet_sytem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-03T14:46:57.351+03:00  INFO 18353 --- [Hospital_managemet_sytem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-03T16:17:10.154+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] c.b.H.HospitalManagemetSytemApplication  : Starting HospitalManagemetSytemApplication using Java 17.0.12 with PID 23817 (/home/jamila/Documents/academy/Hospital_managemet_sytem/target/classes started by jamila in /home/jamila/Documents/academy/Hospital_managemet_sytem)
+2024-08-03T16:17:10.161+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] c.b.H.HospitalManagemetSytemApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-08-03T16:17:10.289+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-03T16:17:10.290+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-03T16:17:12.378+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03T16:17:12.589+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 192 ms. Found 8 JPA repository interfaces.
+2024-08-03T16:17:14.151+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-08-03T16:17:14.181+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-03T16:17:14.182+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-03T16:17:14.326+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-03T16:17:14.326+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4035 ms
+2024-08-03T16:17:14.640+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03T16:17:14.742+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03T16:17:14.811+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-03T16:17:15.474+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03T16:17:15.538+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-03T16:17:16.274+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39f839a9
+2024-08-03T16:17:16.280+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-03T16:17:19.078+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03T16:17:19.569+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03T16:17:20.764+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-08-03T16:17:21.464+03:00  WARN 23817 --- [Hospital_managemet_sytem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-03T16:17:23.963+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-03T16:17:24.043+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path '/'
+2024-08-03T16:17:24.078+03:00  INFO 23817 --- [Hospital_managemet_sytem] [restartedMain] c.b.H.HospitalManagemetSytemApplication  : Started HospitalManagemetSytemApplication in 14.923 seconds (process running for 15.86)
+2024-08-03T16:25:50.171+03:00  INFO 23817 --- [Hospital_managemet_sytem] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03T16:25:50.172+03:00  INFO 23817 --- [Hospital_managemet_sytem] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-03T16:25:50.177+03:00  INFO 23817 --- [Hospital_managemet_sytem] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms

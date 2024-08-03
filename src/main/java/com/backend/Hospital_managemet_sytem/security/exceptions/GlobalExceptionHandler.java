@@ -1,4 +1,4 @@
-package com.backend.Hospital_managemet_sytem.exceptions;
+package com.backend.Hospital_managemet_sytem.security.exceptions;
 
 import com.backend.Hospital_managemet_sytem.controller.vm.ErrorResponseVM;
 import com.backend.Hospital_managemet_sytem.model.enumerations.Status;

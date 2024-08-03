@@ -1,6 +1,5 @@
 package com.backend.Hospital_managemet_sytem.service;
 
-import com.backend.Hospital_managemet_sytem.exceptions.ResourceNotFoundException;
 import com.backend.Hospital_managemet_sytem.model.Doctor;
 
 import java.util.List;

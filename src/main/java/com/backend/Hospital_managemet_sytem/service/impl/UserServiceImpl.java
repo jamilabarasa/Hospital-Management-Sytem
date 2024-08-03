@@ -1,11 +1,17 @@
 package com.backend.Hospital_managemet_sytem.service.impl;
 
-import com.backend.Hospital_managemet_sytem.exceptions.ResourceNotFoundException;
+import com.backend.Hospital_managemet_sytem.security.jwt.JwtTokenProvider;
+import com.backend.Hospital_managemet_sytem.dto.LoginDto;
+import com.backend.Hospital_managemet_sytem.security.exceptions.ResourceNotFoundException;
 import com.backend.Hospital_managemet_sytem.model.User;
 import com.backend.Hospital_managemet_sytem.model.enumerations.UserRole;
 import com.backend.Hospital_managemet_sytem.repository.UserRepository;
 import com.backend.Hospital_managemet_sytem.service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,6 +21,7 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
 
     private UserRepository userRepository;
+
 
     public UserServiceImpl(UserRepository userRepository) {
         this.userRepository = userRepository;
@@ -67,4 +74,7 @@ public class UserServiceImpl implements UserService {
         List<User> users = userRepository.findAll();
         return users;
     }
+
+
+
 }

@@ -1,5 +1,6 @@
 package com.backend.Hospital_managemet_sytem.service;
 
+import com.backend.Hospital_managemet_sytem.dto.LoginDto;
 import com.backend.Hospital_managemet_sytem.model.User;
 import com.backend.Hospital_managemet_sytem.model.enumerations.UserRole;
 
@@ -21,6 +22,7 @@ public interface UserService {
     List<User> getUsersByRole(UserRole userRole);
 
     List<User> getUsers();
+
 
 
 }

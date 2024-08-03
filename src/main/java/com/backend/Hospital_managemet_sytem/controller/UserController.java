@@ -1,7 +1,9 @@
 package com.backend.Hospital_managemet_sytem.controller;
 
 import com.backend.Hospital_managemet_sytem.controller.vm.CreatedUserVM;
+import com.backend.Hospital_managemet_sytem.controller.vm.JwtAuthResponse;
 import com.backend.Hospital_managemet_sytem.controller.vm.SuccessReponseVM;
+import com.backend.Hospital_managemet_sytem.dto.LoginDto;
 import com.backend.Hospital_managemet_sytem.model.User;
 import com.backend.Hospital_managemet_sytem.model.enumerations.Status;
 import com.backend.Hospital_managemet_sytem.model.enumerations.UserRole;
@@ -24,6 +26,7 @@ public class UserController {
     public UserController(UserService userService) {
         this.userService = userService;
     }
+
 
     @PostMapping
     public ResponseEntity<CreatedUserVM> createUser(@Valid @RequestBody User user){
